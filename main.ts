@@ -5,7 +5,7 @@ namespace test {
    //% blockId=screenmagiclotat
    //% block="plot at index"
    //% index.min=0 index.max=25
-    export function plotAt(index: number ): void {
+    export function plotAt void {
         index |= 0
         const y = Math.floor(index / 5);
         const x = Math.floor(index % 5);
